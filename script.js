@@ -25,6 +25,6 @@ function calculate() {
   }
   
   function formatCurrency(amount) {
-    return "Rp " + amount.toLocaleString('id-ID', { maximumFractionDigits: 2 });
+    return "Rp " + amount.toLocaleString('id-ID', { maximumFractionDigits: 1 });
   }
   
